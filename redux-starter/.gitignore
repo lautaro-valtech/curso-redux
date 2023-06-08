@@ -1,0 +1,24 @@
+# Ignorar directorios de dependencias
+/node_modules
+/bower_components
+
+# Ignorar archivos generados o compilados
+/dist
+/build
+.sass-cache
+.DS_Store
+.idea
+.vscode
+
+# Ignorar archivos de configuración personal
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# Ignorar archivos de compilación y construcción específicos de IDE o editor
+*.log
+*.swp
+.project
+.classpath
