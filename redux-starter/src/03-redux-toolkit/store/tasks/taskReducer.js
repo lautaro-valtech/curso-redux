@@ -1,3 +1,6 @@
+//! This is how to createa a reducer whitout using Slices.
+//! To see how create a reducer nowadays, go to /src/04-redux-toolkit-slice
+
 import { createReducer } from '@reduxjs/toolkit';
 import { addTask, removeTask, markTaskAsComplete } from './taskActions';
 
